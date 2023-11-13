@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-image:url(compnents/AdobeStock_250356210.jpeg);
+  background-size: 100%;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+h1 {
+  color: black;
+}
+
+.puppies-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.puppies-container > li {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: blanchedalmond;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 4%;
+  list-style: none;
+}
+
+.puppies-container > li > img {
+  max-width: 200px;
+}
+
+.details {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.single-puppy {
+  margin-left: 25%;
+  margin-right: 40%;
+  color: black;
+  width: 50%;
+  background-color: blanchedalmond;
+  border: 2px solid white;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+}
+
+.single-puppy > img {
+  width: 50%;
+  height: 60%;
+}
+
+.nav-bar {
+  align-items: flex-start;
+  background-color: blanchedalmond;
+  border: 2px solid white;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 2px solid white;
+  border-radius: 10%;
+}
+#home-btn {
+  margin-right: 20%;
+}
